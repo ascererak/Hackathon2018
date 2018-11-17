@@ -47,10 +47,17 @@ namespace AspNetCore
             BeginContext(0, 25, true);
             WriteLiteral("<!DOCTYPE html>\r\n<html>\r\n");
             EndContext();
+<<<<<<< HEAD
+            BeginContext(27, 109, false);
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("head", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "60c8746740874e9c9730a2430ea629f4", async() => {
+                BeginContext(33, 72, true);
+                WriteLiteral("\r\n    <meta name=\"viewport\" content=\"width=device-width\" />\r\n    <title>");
+=======
             BeginContext(25, 730, false);
             __tagHelperExecutionContext = __tagHelperScopeManager.Begin("head", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "be2d1b4afdd5442db6b2ccdc8a12f60f", async() => {
                 BeginContext(31, 41, true);
                 WriteLiteral("\r\n    <meta charset=\"utf-8\">\r\n    <title>");
+>>>>>>> 0df4672776fa977ce31f22a130e3957265920150
                 EndContext();
                 BeginContext(73, 17, false);
 #line 5 "C:\Users\Andrew\Documents\git\Hackathon2018\Hakathon\Hakathon\Views\Shared\_Layout.cshtml"
@@ -130,6 +137,12 @@ namespace AspNetCore
             BeginContext(755, 2, true);
             WriteLiteral("\r\n");
             EndContext();
+<<<<<<< HEAD
+            BeginContext(138, 188, false);
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("body", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "6caad80c9b524daa9cb8470137c4f24f", async() => {
+                BeginContext(144, 14, true);
+                WriteLiteral("\r\n            ");
+=======
             BeginContext(757, 594, false);
             __tagHelperExecutionContext = __tagHelperScopeManager.Begin("body", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "e5a5940b7fff4a8aab6e4007e6b72ffa", async() => {
                 BeginContext(763, 456, true);
@@ -147,6 +160,7 @@ namespace AspNetCore
         </nav>
     </header>
     ");
+>>>>>>> 0df4672776fa977ce31f22a130e3957265920150
                 EndContext();
                 BeginContext(1220, 12, false);
 #line 35 "C:\Users\Andrew\Documents\git\Hackathon2018\Hakathon\Hakathon\Views\Shared\_Layout.cshtml"

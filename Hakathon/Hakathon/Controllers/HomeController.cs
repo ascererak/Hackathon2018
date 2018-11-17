@@ -12,5 +12,10 @@ namespace Hakathon.Controllers
         {
             return View();
         }
+
+        public ActionResult Error()
+        {
+            return View();
+        }
     }
 }
