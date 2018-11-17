@@ -1,14 +1,40 @@
 ﻿<!DOCTYPE html>
-
 <html>
 <head>
+    <meta charset="utf-8">
+    <title>@ViewData["Title"] - WebApplicationMVC</title>
     <meta name="viewport" content="width=device-width" />
-    <title>@ViewBag.Title</title>
+    <link rel="stylesheet" type="text/css" href="~/styles/main.css">
+    <link rel="stylesheet" type="text/css" href="~/styles/order.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+          rel="stylesheet">
+    <script>
+        function toggleMenu() {
+            var mainNav = document.getElementById("nav_main");
+            if (mainNav.className === "topNav") {
+                mainNav.className += " responsive";
+            } else {
+                mainNav.className = "topNav";
+            }
+        }
+    </script>
 </head>
 <body>
-            @RenderBody()            
-            <footer>
-                <p><a target="_blank" href="#">&copy; 2018 - Multiflexers Corp.</a></p>
-            </footer>
+    <header>
+        <nav id="nav_main" class="topNav">
+            <a href="Order">Заказать</a>
+            <a href="#">Меню</a>
+            <a href="#">Спец предложения</a>
+            <a href="#" class="navP">О нас</a>
+            <!-- For mobile version -->
+            <a href="javascript:void(0);" class="icon">
+                <i class="material-icons" onclick="toggleMenu()">menu</i>
+            </a>
+        </nav>
+    </header>
+    @RenderBody()
+    <footer>
+        <p><a target="_blank" href="#">&copy; 2018 - Multiflexers Corp.</a></p>
+    </footer>
 </body>
 </html>
