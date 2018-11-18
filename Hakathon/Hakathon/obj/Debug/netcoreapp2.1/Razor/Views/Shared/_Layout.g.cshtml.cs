@@ -47,17 +47,10 @@ namespace AspNetCore
             BeginContext(0, 25, true);
             WriteLiteral("<!DOCTYPE html>\r\n<html>\r\n");
             EndContext();
-<<<<<<< HEAD
-            BeginContext(27, 109, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("head", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "60c8746740874e9c9730a2430ea629f4", async() => {
-                BeginContext(33, 72, true);
-                WriteLiteral("\r\n    <meta name=\"viewport\" content=\"width=device-width\" />\r\n    <title>");
-=======
             BeginContext(25, 730, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("head", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "be2d1b4afdd5442db6b2ccdc8a12f60f", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("head", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "b28c156df2a1431897d81f2a68f93049", async() => {
                 BeginContext(31, 41, true);
                 WriteLiteral("\r\n    <meta charset=\"utf-8\">\r\n    <title>");
->>>>>>> 0df4672776fa977ce31f22a130e3957265920150
                 EndContext();
                 BeginContext(73, 17, false);
 #line 5 "C:\Users\Andrew\Documents\git\Hackathon2018\Hakathon\Hakathon\Views\Shared\_Layout.cshtml"
@@ -70,7 +63,7 @@ namespace AspNetCore
                 WriteLiteral(" - WebApplicationMVC</title>\r\n    <meta name=\"viewport\" content=\"width=device-width\" />\r\n    ");
                 EndContext();
                 BeginContext(183, 64, false);
-                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("link", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagOnly, "fb923a48cd264ccdbb3f3b9744081fe9", async() => {
+                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("link", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagOnly, "6d4062f0b52841f6a155d2203d85333a", async() => {
                 }
                 );
                 __Microsoft_AspNetCore_Mvc_Razor_TagHelpers_UrlResolutionTagHelper = CreateTagHelper<global::Microsoft.AspNetCore.Mvc.Razor.TagHelpers.UrlResolutionTagHelper>();
@@ -90,7 +83,7 @@ namespace AspNetCore
                 WriteLiteral("\r\n    ");
                 EndContext();
                 BeginContext(253, 65, false);
-                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("link", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagOnly, "43c710c406ce40a086dd2a996db61397", async() => {
+                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("link", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagOnly, "fea71f9221484a96b8e122c4b1e49018", async() => {
                 }
                 );
                 __Microsoft_AspNetCore_Mvc_Razor_TagHelpers_UrlResolutionTagHelper = CreateTagHelper<global::Microsoft.AspNetCore.Mvc.Razor.TagHelpers.UrlResolutionTagHelper>();
@@ -137,14 +130,8 @@ namespace AspNetCore
             BeginContext(755, 2, true);
             WriteLiteral("\r\n");
             EndContext();
-<<<<<<< HEAD
-            BeginContext(138, 188, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("body", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "6caad80c9b524daa9cb8470137c4f24f", async() => {
-                BeginContext(144, 14, true);
-                WriteLiteral("\r\n            ");
-=======
             BeginContext(757, 594, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("body", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "e5a5940b7fff4a8aab6e4007e6b72ffa", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("body", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "3dac26dcd4d9439887255a33b9c50312", async() => {
                 BeginContext(763, 456, true);
                 WriteLiteral(@"
     <header>
@@ -160,7 +147,6 @@ namespace AspNetCore
         </nav>
     </header>
     ");
->>>>>>> 0df4672776fa977ce31f22a130e3957265920150
                 EndContext();
                 BeginContext(1220, 12, false);
 #line 35 "C:\Users\Andrew\Documents\git\Hackathon2018\Hakathon\Hakathon\Views\Shared\_Layout.cshtml"

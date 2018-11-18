@@ -51,3 +51,4 @@ C:\Users\Andrew\Documents\git\Hackathon2018\Hakathon\Hakathon\obj\Debug\netcorea
 C:\Users\Andrew\Documents\git\Hackathon2018\Hakathon\Hakathon\obj\Debug\netcoreapp2.1\Razor\Views\Order\Index.g.cshtml.cs
 C:\Users\vlad1\Downloads\Hackathon\Hackathon2018\Hakathon\Hakathon\obj\Debug\netcoreapp2.1\Razor\Views\Order\Index.g.cshtml.cs
 C:\Users\vlad1\Downloads\Hackathon\Hackathon2018\Hakathon\Hakathon\obj\Debug\netcoreapp2.1\Razor\Views\Home\Error.g.cshtml.cs
+C:\Users\Andrew\Documents\git\Hackathon2018\Hakathon\Hakathon\obj\Debug\netcoreapp2.1\Razor\Views\Home\Error.g.cshtml.cs
