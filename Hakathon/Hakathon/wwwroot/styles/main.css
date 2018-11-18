@@ -81,3 +81,33 @@ body {
         text-align: left;
     }
 }
+
+#welcome_window_text {
+    text-align:center;
+    margin-top: 100px;
+}
+
+.takeOrHere {
+    width: 35%;
+    height: 250px;
+    background-image:linear-gradient(to top left, #ff0000, #4800ff);
+    border-radius: 30px;
+    margin-top: 90px;
+}
+
+.takeOrHere p {
+    color:#fff;
+    font-size: 50px;
+    text-align: center;
+    margin-top: 85px;
+}
+
+#left-button {
+    float:left;
+    margin-left: 100px;
+}
+
+#right-button {
+    float:right;
+    margin-right: 100px;
+}

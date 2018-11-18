@@ -9,6 +9,21 @@
   </ItemGroup>
 
   <ItemGroup>
+    <None Include="wwwroot\img\article1.png" />
+    <None Include="wwwroot\img\article2.png" />
+    <None Include="wwwroot\img\article3.png" />
+    <None Include="wwwroot\img\article4.png" />
+    <None Include="wwwroot\img\header-bg.jpg" />
+    <None Include="wwwroot\img\logo3.png" />
+    <None Include="wwwroot\img\prod-1.png" />
+    <None Include="wwwroot\img\prod-2.png" />
+    <None Include="wwwroot\img\prod-3.png" />
+    <None Include="wwwroot\img\question.png" />
+    <None Include="wwwroot\img\sprite.png" />
+    <None Include="wwwroot\img\try.png" />
+  </ItemGroup>
+
+  <ItemGroup>
     <PackageReference Include="Microsoft.AspNetCore.App" />
     <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="2.1.1" />
   </ItemGroup>
