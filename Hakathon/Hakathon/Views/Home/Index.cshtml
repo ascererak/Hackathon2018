@@ -1,10 +1,148 @@
 ﻿
 @{
     ViewData["Title"] = "Smart";
+    
 }
 
 <main>
-    <div id="slider">
-        <span>Слайдер с приколами</span>
+    <div class="features">
+        <div class="container">
+            <ul class="clearfix">
+                <li class="feature-item feature-choice">
+                    <h2 class="feature-title">Choice</h2>
+                    <p>You will enjoy the broad variety of absolutely delightful dishes.</p>
+                </li>
+                <li class="feature-item feature-quality">
+                    <h2 class="feature-title">Uniqueness</h2>
+                    <p>Now you don't need to imagine the mixture of modern technologies and traditional food. Just taste it.</p>
+                </li>
+                <li class="feature-item feature-safety">
+                    <h2 class="feature-title">Care</h2>
+                    <p>We greatly care about the quality of our food. So you can be sure all products are fresh and are cooked properly.</p>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <div class="cat-reference">
+        <div class="container">
+            <h2 class="section-title">Special offers</h2>
+            <a class="btn to-full-reference" href="#" title="Открыть справочник">View all</a>
+            <dl>
+                <dt>
+                    <h3 class="reference-title">Family offers</h3>
+                </dt>
+                <dd>
+                    <img src="img/article1.png" alt="Family offers" width="100" height="100">
+                    <p>smth</p>
+                </dd>
+                <dt>
+                    <h3 class="reference-title">Corporate offers</h3>
+                </dt>
+                <dd>
+                    <img src="img/article2.png" alt="Corporate offers" width="100" height="100">
+                    <p>smth</p>
+                </dd>
+                <dt>
+                    <h3 class="reference-title">Season offers</h3>
+                </dt>
+                <dd>
+                    <img src="img/article3.png" alt="Season offers" width="100" height="100">
+                    <p>smth</p>
+                </dd>
+                <dt>
+                    <h3 class="reference-title">Special offers</h3>
+                </dt>
+                <dd>
+                    <img src="img/article4.png" alt="Special offers" width="100" height="100">
+                    <p>smth</p>
+                </dd>
+            </dl>
+        </div>
+    </div>
+    <div class="reviews">
+        <div class="container">
+            <h2 class="section-title">Our clients</h2>
+            <a class="btn to-all-reviews" href="#" title="Посмотреть все отзывы">All reviews</a>
+            <div class="reviews-list clearfix">
+                <blockquote class="review-item">
+                    <p>The best food you will find in this area! My husband is from Pittsburgh which has an abundance of restaurants and he would still prefer to come home and eat here instead! Everything is delicious.</p>
+                    <cite class="review-author">Mariam Berg</cite>
+                </blockquote>
+                <blockquote class="review-item">
+                    <p>review</p>
+                    <cite class="review-author">author</cite>
+                </blockquote>
+            </div>
+        </div>
+    </div>
+    <div class="popular-and-price">
+        <div class="container">
+            <h2 class="section-title">Popular positions</h2>
+            <a class="btn to-catalog" href="#" title="Посмотреть все товары">Menu</a>
+            <div class="popular-items clearfix">
+                <div class="catalog-item">
+                    <img src="img/prod-3.png" alt="" width="306" height="206">
+                    <h3>name</h3>
+                    <b class="catalog-item-price">price</b>
+                    <a href="#" class="btn btn-info">info</a>
+                    <a href="#" class="btn btn-buy">Add</a>
+                </div>
+                <div class="catalog-item">
+                    <img src="img/prod-1.png" alt="" width="306" height="206">
+                    <h3>name</h3>
+                    <b class="catalog-item-price">price</b>
+                    <a href="#" class="btn btn-info">info</a>
+                    <a href="#" class="btn btn-buy">Add</a>
+                </div>
+                <div class="catalog-item">
+                    <img src="img/prod-2.png" alt="" width="306" height="206">
+                    <h3>name</h3>
+                    <b class="catalog-item-price">price</b>
+                    <a href="#" class="btn btn-info">info</a>
+                    <a href="#" class="btn btn-buy">Add</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="feedback">
+        <div class="container">
+            <h2 class="section-title">Any questions left?</h2>
+            <p class="feedback-tip">Write us and we will assuage all doubts!</p>
+            <form class="feedback-form" action="/keksby-mail" method="post">
+                <div class="feedback-form-group">
+                    <label for="fullname">Name:</label>
+                    <input type="text" name="fullname" id="fullname">
+                </div>
+                <div class="clearfix">
+                    <div class="feedback-form-group feedback-form-group-left-part">
+                        <label for="phone">Telephone number:</label>
+                        <input type="text" name="phone" id="phone">
+                    </div>
+                    <div class="feedback-form-group feedback-form-group-right-part">
+                        <label for="email">E-mail:</label>
+                        <input type="text" name="email" id="email">
+                    </div>
+                </div>
+                <div class="checkbox-area">
+                    <label>
+                        <input type="checkbox" name="subscription">
+                        I want to receive news via e-mail
+                    </label>
+                </div>
+                <div class="feedback-form-group">
+                    <label for="topic">Topic:</label>
+                    <select name="topic" id="topic">
+                        <option value="1">Delivery service</option>
+                        <option value="2">Special offers</option>
+                        <option value="3">Review</option>
+                    </select>
+                </div>
+                <div class="feedback-form-group">
+                    <label for="message">Message:</label>
+                    <textarea name="message" id="message"></textarea>
+                </div>
+                <input type="submit" class="btn" value="Send">
+            </form>
+        </div>
     </div>
 </main>

@@ -1,40 +1,73 @@
 ﻿<!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
     <meta charset="utf-8">
-    <title>@ViewData["Title"] - WebApplicationMVC</title>
-    <meta name="viewport" content="width=device-width" />
-    <link rel="stylesheet" type="text/css" href="~/styles/main.css">
-    <link rel="stylesheet" type="text/css" href="~/styles/order.css">
-    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
-          rel="stylesheet">
-    <script>
-        function toggleMenu() {
-            var mainNav = document.getElementById("nav_main");
-            if (mainNav.className === "topNav") {
-                mainNav.className += " responsive";
-            } else {
-                mainNav.className = "topNav";
-            }
-        }
-    </script>
+    <title>name</title>
+    <link rel="stylesheet" href="styles/style.css">
 </head>
 <body>
-    <header>
-        <nav id="nav_main" class="topNav">
-            <a href="Order">Заказать</a>
-            <a href="#">Меню</a>
-            <a href="#">Спец предложения</a>
-            <a href="#" class="navP">О нас</a>
-            <!-- For mobile version -->
-            <a href="javascript:void(0);" class="icon">
-                <i class="material-icons" onclick="toggleMenu()">menu</i>
-            </a>
-        </nav>
-    </header>
+    <div class="page-header">
+        <div class="container">
+            <div class="header-top clearfix">
+                <div class="header-logo">
+                    <img src="img/logo3.png" alt="name" width="210" height="55">
+                </div>
+                <ul class="main-nav clearfix">
+                    <li><a href="#">Menu</a></li>
+                    <li><a href="#">Delivery</a></li>
+                    <li><a href="#">Profile</a></li>
+                </ul>
+                <a class="btn btn-quick-order" href="#">Order</a>
+            </div>
+            <div class="promo">
+                <a href="#">Special winter offers<br> Year 2018</a>
+            </div>
+        </div>
+    </div>
+
     @RenderBody()
-    <footer>
-        <p><a target="_blank" href="#">&copy; 2018 - Multiflexers Corp.</a></p>
-    </footer>
+    <div class="page-footer">
+        <div class="container">
+            <div class="footer-top clearfix">
+                <div class="footer-logo">
+                    <img src="img/logo3.png" alt="" width="205" height="55">
+                </div>
+                <a href="#" class="btn btn-quick-order">Order</a>
+            </div>
+            <div class="footer-middle clearfix">
+                <div class="footer-menu">
+                    <h3>Menu</h3>
+                    <ul>
+                        <li><a href="#">Quick menu</a></li>
+                        <li><a href="#">Full menu</a></li>
+                        <li><a href="#">Special offers</a></li>
+                    </ul>
+                </div>
+                <div class="footer-menu">
+                    <h3>Reviews</h3>
+                    <ul>
+                        <li><a href="#">See</a></li>
+                        <li><a href="#">Leave</a></li>
+                    </ul>
+                </div>
+                <div class="footer-menu">
+                    <h3>Order</h3>
+                    <ul>
+                        <li><a href="#">Open the cart</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom clearfix">
+                <div class="footer-social">
+                    <b>Join us!</b>
+                    <a class="social-btn social-btn-fb" href="#">Facebook</a>
+                    <a class="social-btn social-btn-in" href="#">Instagram</a>
+                </div>
+                <div class="footer-copyright">
+                    With <span class="heart">love</span> for Hackathon
+                </div>
+            </div>
+        </div>
+    </div>
 </body>
 </html>
